@@ -12,4 +12,5 @@ export default HighlightStyle.define([
   { tag: t.monospace, fontFamily: 'monospace' },
   { tag: t.content, fontFamily: 'sans-serif' },
   { tag: t.meta, color: 'darkgrey' },
+  { tag: t.strikethrough, color: 'darkgrey', textDecoration: 'line-through' },
 ]);
